@@ -8,7 +8,7 @@ import os
 
 app = Flask(__name__)
 model = joblib.load('saved_model1.pkl')
-scaler = joblib.load('scaler.save')
+# scaler = joblib.load('scaler.save')
 
 # app = Flask(__name__)
 # loading the model
